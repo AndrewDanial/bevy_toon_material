@@ -1,6 +1,6 @@
 [package]
 name = "bevy_toon_material"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "A toon shader in the style of Windwaker or Breath of the Wild"
@@ -8,12 +8,12 @@ repository = "https://github.com/AndrewDanial/bevy_toon_material"
 readme = "README.md"
 
 [dependencies]
-bevy = {version = "0.15.0", default-features = false, features = [
-    "bevy_pbr", 
-    "bevy_render", 
-    "bevy_asset", 
-    "basis-universal"
-]}
+bevy = { version = "0.15.0", default-features = false, features = [
+    "bevy_pbr",
+    "bevy_render",
+    "bevy_asset",
+    "basis-universal",
+] }
 
 [dev-dependencies]
-bevy = {version = "0.15.0", features = ["dynamic_linking"]}
+bevy = { version = "0.15.0" }
